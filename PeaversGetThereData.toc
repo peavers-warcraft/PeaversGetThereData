@@ -1,0 +1,18 @@
+## Interface: 120001, 120005, 120007
+## Title: |cff3abdf7Peavers|rGetThereData
+## Notes: Travel graph, teleport and location data for PeaversGetThere and others
+## Author: Peavers
+## Version: 0.1.0
+## IconTexture: Interface\AddOns\PeaversGetThereData\src\Media\Icon.tga
+## Category-enUS: Peavers
+## X-Website: https://peavers.io
+## X-Source-Code: https://github.com/peavers-warcraft/PeaversGetThereData
+
+Changelog.lua
+src\Data\TravelNodes.lua
+src\Data\TravelEdges.lua
+src\Data\Teleports.lua
+src\Data\TaxiNodes.lua
+src\Data\DungeonEntrances.lua
+src\Data\SearchExtras.lua
+src\Api\Api.lua

@@ -1,0 +1,17 @@
+# .peavers.yml - Addon metadata for peavers.io website
+
+# Icon to display on website
+iconType: DataRuneIcon
+
+# CurseForge project ID for download statistics (assigned at first release)
+curseForgeProjectId: ""
+
+# Tags for filtering and categorization
+tags:
+  - travel
+  - navigation
+  - data
+  - library
+
+# Gallery images shown on the website
+galleryImages: []

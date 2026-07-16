@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: PeaversGetThereData
+  description: "A data library addon for World of Warcraft that provides the travel graph (portals, boats, zeppelins, trams), teleport catalog, taxi nodes and dungeon entrances consumed by PeaversGetThere, generated from wago.tools db2 exports plus curated seed data."
+  annotations:
+    github.com/project-slug: peavers-warcraft/PeaversGetThereData
+spec:
+  type: library
+  lifecycle: production
+  owner: peavers-warcraft
