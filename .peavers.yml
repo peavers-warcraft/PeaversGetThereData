@@ -3,8 +3,8 @@
 # Icon to display on website
 iconType: DataRuneIcon
 
-# CurseForge project ID for download statistics (assigned at first release)
-curseForgeProjectId: ""
+# CurseForge project ID for download statistics
+curseForgeProjectId: 1613907
 
 # Tags for filtering and categorization
 tags:

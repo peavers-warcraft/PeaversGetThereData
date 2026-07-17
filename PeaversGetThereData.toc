@@ -7,6 +7,7 @@
 ## Category-enUS: Peavers
 ## X-Website: https://peavers.io
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversGetThereData
+## X-Curse-Project-ID: 1613907
 
 Changelog.lua
 src\Data\TravelNodes.lua
