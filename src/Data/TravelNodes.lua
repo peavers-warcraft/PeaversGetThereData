@@ -20,7 +20,7 @@ local _, addonTable = ...
 -- TODO verify in-game: all coordinates in this file are best-effort approximations
 -- and portal-room contents should be re-checked against the live client.
 local data = {
-	updated = "2026-07-16 00:00:00",
+	updated = "2026-07-17 13:11:50",
 
 	nodes = {
 		-- ---------------------------------------------------------------
