@@ -33,7 +33,7 @@ local data = {
 		["hub:orgrimmar"] = { kind = "hub", map = 85, x = 0.520, y = 0.620, name = "Orgrimmar", faction = "Horde" },
 		["hub:thunderbluff"] = { kind = "hub", map = 88, x = 0.470, y = 0.510, name = "Thunder Bluff", faction = "Horde" },
 		["hub:undercity"] = { kind = "hub", map = 90, x = 0.560, y = 0.550, name = "Undercity", faction = "Horde" }, -- mage teleport target; city access gated since BfA
-		["hub:silvermoon"] = { kind = "hub", map = 110, x = 0.560, y = 0.350, name = "Silvermoon City", faction = "Horde" },
+		["hub:silvermoon"] = { kind = "hub", map = 2393, x = 0.510, y = 0.710, name = "Silvermoon City" }, -- Midnight relocated Silvermoon to uiMap 2393; anchored to scraped taxi node 3131 Sanctum of Light (neutral). Was uiMap 110 (pre-Midnight Silvermoon).
 		["hub:shattrath"] = { kind = "hub", map = 111, x = 0.530, y = 0.440, name = "Shattrath City" },
 		["hub:dalaran-northrend"] = { kind = "hub", map = 125, x = 0.500, y = 0.500, name = "Dalaran (Northrend)" },
 		["hub:dalaran-legion"] = { kind = "hub", map = 627, x = 0.500, y = 0.500, name = "Dalaran (Broken Isles)" },
@@ -78,6 +78,7 @@ local data = {
 		["portal:stormwind:shattrath"] = { kind = "portal_src", map = 84, x = 0.492, y = 0.873, name = "Portal to Shattrath", faction = "Alliance" },
 		["portal:stormwind:exodar"] = { kind = "portal_src", map = 84, x = 0.492, y = 0.873, name = "Portal to the Exodar", faction = "Alliance" },
 		["portal:stormwind:stormshield"] = { kind = "portal_src", map = 84, x = 0.492, y = 0.873, name = "Portal to Stormshield", faction = "Alliance" },
+		["portal:stormwind:silvermoon"] = { kind = "portal_src", map = 84, x = 0.492, y = 0.873, name = "Portal to Silvermoon", faction = "Alliance" },
 
 		-- ---------------------------------------------------------------
 		-- Orgrimmar Portal Room (Pathfinder's Den, Valley of Strength)
@@ -111,6 +112,8 @@ local data = {
 		["portal:valdrakken:orgrimmar"] = { kind = "portal_src", map = 2112, x = 0.610, y = 0.460, name = "Valdrakken Portal to Orgrimmar", faction = "Horde" },
 		["portal:dornogal:stormwind"] = { kind = "portal_src", map = 2339, x = 0.550, y = 0.480, name = "Dornogal Portal to Stormwind", faction = "Alliance" },
 		["portal:dornogal:orgrimmar"] = { kind = "portal_src", map = 2339, x = 0.570, y = 0.500, name = "Dornogal Portal to Orgrimmar", faction = "Horde" },
+		["portal:silvermoon:stormwind"] = { kind = "portal_src", map = 2393, x = 0.526, y = 0.645, name = "Silvermoon Portal to Stormwind", faction = "Alliance" }, -- Midnight Silvermoon portal room; coords measured in-game
+		["portal:silvermoon:orgrimmar"] = { kind = "portal_src", map = 2393, x = 0.526, y = 0.645, name = "Silvermoon Portal to Orgrimmar", faction = "Horde" }, -- Midnight Silvermoon portal room; coords approximated to the adjacent Alliance portal (only that one was measured)
 		["portal:oribos:stormwind"] = { kind = "portal_src", map = 1671, x = 0.240, y = 0.500, name = "Oribos Portal to Stormwind", faction = "Alliance" }, -- Ring of Transference
 		["portal:oribos:orgrimmar"] = { kind = "portal_src", map = 1671, x = 0.760, y = 0.500, name = "Oribos Portal to Orgrimmar", faction = "Horde" }, -- Ring of Transference
 		["portal:boralus:stormwind"] = { kind = "portal_src", map = 1161, x = 0.707, y = 0.172, name = "Sanctum of the Sages Portal to Stormwind", faction = "Alliance" },

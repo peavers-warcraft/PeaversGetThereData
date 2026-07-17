@@ -31,6 +31,7 @@ local data = {
 		{ from = "portal:stormwind:shattrath", to = "hub:shattrath", method = "portal", cost = 15 },
 		{ from = "portal:stormwind:exodar", to = "hub:exodar", method = "portal", cost = 15 },
 		{ from = "portal:stormwind:stormshield", to = "hub:stormshield", method = "portal", cost = 15 },
+		{ from = "portal:stormwind:silvermoon", to = "hub:silvermoon", method = "portal", cost = 15 },
 
 		-- Orgrimmar Portal Room (Pathfinder's Den)
 		{ from = "portal:orgrimmar:valdrakken", to = "hub:valdrakken", method = "portal", cost = 15 },
@@ -50,6 +51,8 @@ local data = {
 		{ from = "portal:valdrakken:orgrimmar", to = "hub:orgrimmar", method = "portal", cost = 15 },
 		{ from = "portal:dornogal:stormwind", to = "hub:stormwind", method = "portal", cost = 15 },
 		{ from = "portal:dornogal:orgrimmar", to = "hub:orgrimmar", method = "portal", cost = 15 },
+		{ from = "portal:silvermoon:stormwind", to = "hub:stormwind", method = "portal", cost = 15 },
+		{ from = "portal:silvermoon:orgrimmar", to = "hub:orgrimmar", method = "portal", cost = 15 },
 		{ from = "portal:oribos:stormwind", to = "hub:stormwind", method = "portal", cost = 15 },
 		{ from = "portal:oribos:orgrimmar", to = "hub:orgrimmar", method = "portal", cost = 15 },
 		{ from = "portal:boralus:stormwind", to = "hub:stormwind", method = "portal", cost = 15 },
