@@ -2,7 +2,7 @@
 ## Title: |cff3abdf7Peavers|rGetThereData
 ## Notes: Travel graph, teleport and location data for PeaversGetThere and others
 ## Author: Peavers
-## Version: 0.1.7
+## Version: 0.1.8
 ## IconTexture: Interface\AddOns\PeaversGetThereData\src\Media\Icon.tga
 ## Category-enUS: Peavers
 ## X-Website: https://peavers.io
