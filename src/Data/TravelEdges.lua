@@ -16,7 +16,7 @@ local _, addonTable = ...
 -- TODO verify in-game: costs are best-effort estimates (portal ~15 s incl. loading
 -- screen, tram ~150 s, boats/zeppelins ~240 s incl. average wait).
 local data = {
-	updated = "2026-07-17 13:11:50",
+	updated = "2026-07-20 05:00:31",
 
 	edges = {
 		-- Stormwind Portal Room (Wizard's Sanctum)
