@@ -68,7 +68,7 @@ chunks[#chunks + 1] = [==[
 ]==]
 
 addonTable.SearchExtrasData = {
-	updated = "2026-08-03 05:00:31",
+	updated = "2026-08-10 05:00:31",
 	payloads = payloads,
 	chunks = chunks,
 }
