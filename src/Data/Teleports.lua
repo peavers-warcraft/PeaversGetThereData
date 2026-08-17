@@ -22,7 +22,7 @@ local _, addonTable = ...
 -- TODO verify in-game: spell/item IDs and type (item vs toy) flags below are
 -- best-effort; the scraper run replaces this list wholesale.
 local data = {
-	updated = "2026-08-10 05:00:31",
+	updated = "2026-08-17 05:00:34",
 
 	teleports = {
 		-- ---------------------------------------------------------------
